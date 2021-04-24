@@ -1,3 +1,20 @@
 ---
-title: test site
+name: ""
+
+navbar:
+  title: "test site""
+  # pops up in google
+  left:
+  # the pages name + document name
+    text: "Home"
+    href: index.html
+    text: "Project"
+    href: project.html
+    text: 
+    
+output:
+  html_document:
+
 ---
+# create rmarkdown file for each page document (RMD format for now)
+# render_site() in terminal -- knit the rmds to site
